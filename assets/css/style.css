@@ -19,12 +19,14 @@ header {
     background-color: lightcoral;
 }
 
+/*Main content*/
 main {
     background-color: lightblue;
     /*Make main element take any surprus space to push footer down*/
-    flex:1 0 auto;
+    flex: 1 0 auto;
 }
 
+/*Footer*/
 footer {
     background-color: orange;
 }
