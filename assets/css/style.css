@@ -45,12 +45,17 @@ h1 {
 
 /*Main content*/
 main {
-    background-color: lightblue;
     /*Make main element take any surprus space to push footer down*/
     flex: 1 0 auto;
     margin-top: 47px; 
 }
 
+/*Hero section styles*/
+#hero {
+    height: 600px;
+    width: 100%;
+    background: url("../css/images/loverunning.webp")
+}
 /*Footer*/
 #social-networks {
     text-align:center;
