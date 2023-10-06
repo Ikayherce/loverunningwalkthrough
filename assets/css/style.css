@@ -47,8 +47,8 @@ h1 {
 main {
     background-color: lightblue;
     /*Make main element take any surprus space to push footer down*/
-    flex: 
-    1 0 auto;
+    flex: 1 0 auto;
+    margin-top: 47px; 
 }
 
 #menu {
