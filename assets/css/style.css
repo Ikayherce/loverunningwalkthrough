@@ -204,10 +204,26 @@ nav {
     font-size: 2rem;
 }
 
+/*Gallery page*/ 
+#photos img {
+    width:100%;
+    line-height: 1em;
+}
+
+#photos {
+    line-height:0; 
+}
 /*Footer*/
 footer {
     background-color: orange;
 }
+
+/* Media query: large or landscape phones (576px and up) */
+@media screen and (min-width: 576px){
+    #photos {
+        column-count: 2;
+        column-gap: 0;
+    }
 
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
@@ -275,7 +291,10 @@ footer {
             text-align: end;
             align-self: flex-end;
         }
-
+     /*Gallery*/
+          #photos {
+              column-count: 3;
+          }
        
 }
 
@@ -284,6 +303,11 @@ footer {
     #menu a:hover {
         border-bottom: 1px solid #3a3a3a;
     }
+
+    /*Gallery*/
+     #photos {
+        column-count: 4;
+        }
 @media screen and (min-width: 1200px) {
      /* Reasons section */
       #benefits {
